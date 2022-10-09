@@ -42,38 +42,16 @@ func main() {
 
 	// fmt.Println(lcprefix([]string{"flower", "flow", "flight"}))
 
-	fmt.Println(lcp_sorting([]string{"flower", "flow", "flight"}))
-	fmt.Println(lcp_sorting([]string{"dog", "race", "flight"}))
+	// fmt.Println(lcp_sorting([]string{"flower", "flow", "flight"}))
+	// fmt.Println(lcp_sorting([]string{"dog", "race", "flight"}))
+
+	//************************************************//
+	// Valid Parantheses
+	//************************************************//
+
+	fmt.Println(validParans("{()}"))
+	fmt.Println(validParans("[]"))
+	fmt.Println(validParans("[)]"))
+	fmt.Println(validParans("}()[]}"))
 
 }
-
-// func LCP(strs []string) string {
-
-// 	minLen := len(strs[0])
-
-// 	// for _, val := range strs {
-// 	// 	if len(val) < minLen {
-// 	// 		minLen = len(val)
-// 	// 	}
-// 	// }
-
-// 	lcp := ""
-// 	var found bool = true
-// 	for i := 0; i < minLen; i++ {
-// 		currentChar := string(strs[0][i])
-
-// 		for _, val := range strs {
-// 			if string(val[i]) != currentChar {
-// 				found = false
-// 				break
-// 			}
-// 		}
-// 		if !found {
-// 			break
-// 		} else {
-// 			lcp += currentChar
-// 		}
-// 	}
-// 	return lcp
-
-// }
