@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func main() {
 	//TwoSum
 	//twoSumWorst()
@@ -58,6 +56,11 @@ func main() {
 	// Remove Duplicates from Sorted Array
 	//************************************************//
 
-	fmt.Println(remDupsSortedArray([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6}))
+	//fmt.Println(remDupsSortedArray([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6}))
 
+	//************************************************//
+	// Remove Duplicates from Sorted Array
+	//************************************************//
+
+	removeElement([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 2}, 2)
 }
