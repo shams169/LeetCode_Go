@@ -49,9 +49,15 @@ func main() {
 	// Valid Parantheses
 	//************************************************//
 
-	fmt.Println(validParans("{()}"))
-	fmt.Println(validParans("[]"))
-	fmt.Println(validParans("[)]"))
-	fmt.Println(validParans("}()[]}"))
+	// fmt.Println(validParans("{()}"))
+	// fmt.Println(validParans("[]"))
+	// fmt.Println(validParans("[)]"))
+	// fmt.Println(validParans("}()[]}"))
+
+	//************************************************//
+	// Remove Duplicates from Sorted Array
+	//************************************************//
+
+	fmt.Println(remDupsSortedArray([]int{1, 2, 2, 3, 3, 3, 4, 4, 5, 6, 6}))
 
 }
