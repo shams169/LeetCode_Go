@@ -87,6 +87,8 @@ func main() {
 	//************************************************//
 
 	// fmt.Println(productExSelf([]int{1, 2, 3, 4}))
-	fmt.Println(productExSelf_Optimized([]int{1, 2, 3, 4}))
+	// fmt.Println(productExSelf_Optimized([]int{1, 2, 3, 4}))
+
+	fmt.Println(maxSubArray([]int{-2, 1, -3, 4, -1, 2, 1, -5, 4}))
 
 }
