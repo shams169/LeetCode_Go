@@ -29,3 +29,19 @@ func missingNumber(nums []int) int {
 
 	return -1
 }
+
+func missingNumberSet(nums []int) int {
+
+	var numsSet = make(map[int]bool)
+	fmt.Println(len(nums))
+	for i := 0; i < len(nums); i++ {
+		numsSet[nums[i]] = true
+	}
+
+	for i := 0; i <= len(nums); i++ {
+		if _, ok := numsSet[i]; !ok {
+			return i
+		}
+	}
+	return -1
+}
