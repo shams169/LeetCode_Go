@@ -119,9 +119,14 @@ func main() {
 	//************************************************//
 	// Single Number (136)
 	//************************************************//
-	fmt.Println(singleNumber([]int{2, 2, 1}))
-	fmt.Println(singleNumber([]int{4, 1, 2, 1, 2}))
-	fmt.Println(singleNumber([]int{2, 2, 3, 2}))
-	fmt.Println(singleNumber([]int{0, 1, 0, 1, 0, 1, 99}))
+	// fmt.Println(singleNumber([]int{2, 2, 1}))
+	// fmt.Println(singleNumber([]int{4, 1, 2, 1, 2}))
+	// fmt.Println(singleNumber([]int{2, 2, 3, 2}))
+	// fmt.Println(singleNumber([]int{0, 1, 0, 1, 0, 1, 99}))
 
+	//************************************************//
+	// Climbing Stairs (70)
+	//************************************************//
+	// fmt.Println(climbingStairs_Fibo(4))
+	fmt.Println(climbStairs(5))
 }
