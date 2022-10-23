@@ -75,6 +75,7 @@ func main() {
 
 	// fmt.Println(buySellStock_Optimized([]int{1, 7, 5, 3, 6, 4}))
 	// fmt.Println(buySellStock_Optimized([]int{7, 6, 4, 3, 1}))
+	fmt.Println(buySellStock_fast([]int{1, 7, 5, 3, 6, 4}))
 
 	//************************************************//
 	// Contains Duplicate
@@ -128,5 +129,5 @@ func main() {
 	// Climbing Stairs (70)
 	//************************************************//
 	// fmt.Println(climbingStairs_Fibo(4))
-	fmt.Println(climbStairs(5))
+	// fmt.Println(climbStairs(5))
 }

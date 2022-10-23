@@ -34,8 +34,22 @@ func buySellStock_Optimized(prices []int) int {
 		if p < min_price {
 			min_price = p
 		}
-
 	}
-
 	return max
+}
+
+func buySellStock_fast(prices []int) int {
+	minPrice := prices[0]
+	maxProfit := 0
+
+	for i := 0; i < len(prices); i++ {
+		if prices[i] < minPrice {
+			minPrice = prices[i]
+		} else {
+			if maxProfit < prices[i]-minPrice {
+				maxProfit = prices[i] - minPrice
+			}
+		}
+	}
+	return maxProfit
 }
