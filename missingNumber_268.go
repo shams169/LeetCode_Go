@@ -38,7 +38,7 @@ func missingNumberSet(nums []int) int {
 		numsSet[nums[i]] = true
 	}
 
-	for i := 0; i <= len(nums); i++ {
+	for i := 1; i <= len(nums); i++ {
 		if _, ok := numsSet[i]; !ok {
 			return i
 		}
