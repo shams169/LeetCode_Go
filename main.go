@@ -113,6 +113,15 @@ func main() {
 	//************************************************//
 	// Find Disappeared Numbers in array
 	//************************************************//
-	fmt.Println(findDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
+	// fmt.Println(findDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
 	//fmt.Println(findDisappearedNumbers([]int{1, 1}))
+
+	//************************************************//
+	// Single Number (136)
+	//************************************************//
+	fmt.Println(singleNumber([]int{2, 2, 1}))
+	fmt.Println(singleNumber([]int{4, 1, 2, 1, 2}))
+	fmt.Println(singleNumber([]int{2, 2, 3, 2}))
+	fmt.Println(singleNumber([]int{0, 1, 0, 1, 0, 1, 99}))
+
 }
