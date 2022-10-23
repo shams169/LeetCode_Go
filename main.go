@@ -104,8 +104,15 @@ func main() {
 	// fmt.Println(missingNumber([]int{9, 6, 4, 2, 3, 5, 7, 0, 1}))
 	// fmt.Println(missingNumber([]int{0, 2}))
 
-	fmt.Println(missingNumberSet([]int{3, 0, 1}))
-	fmt.Println(missingNumber([]int{0, 1}))
-	fmt.Println(missingNumber([]int{9, 6, 4, 2, 3, 5, 7, 0, 1}))
-	fmt.Println(missingNumber([]int{0, 2}))
+	//******** Set Solution ***********
+	// fmt.Println(missingNumberSet([]int{3, 0, 1}))
+	// fmt.Println(missingNumber([]int{0, 1}))
+	// fmt.Println(missingNumber([]int{9, 6, 4, 2, 3, 5, 7, 0, 1}))
+	// fmt.Println(missingNumber([]int{0, 2}))
+
+	//************************************************//
+	// Find Disappeared Numbers in array
+	//************************************************//
+	fmt.Println(findDisappearedNumbers([]int{4, 3, 2, 7, 8, 2, 3, 1}))
+	//fmt.Println(findDisappearedNumbers([]int{1, 1}))
 }
